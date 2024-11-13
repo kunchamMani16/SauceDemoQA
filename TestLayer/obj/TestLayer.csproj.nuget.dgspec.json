@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\TestLayer\\TestLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\POM\\POM.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\POM\\POM.csproj",
+        "projectName": "POM",
+        "projectPath": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\POM\\POM.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\TestLayer\\TestLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\TestLayer\\TestLayer.csproj",
+        "projectName": "TestLayer",
+        "projectPath": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\TestLayer\\TestLayer.csproj",
+        "packagesPath": "C:\\Users\\kuncham_manikanta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\TestLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kuncham_manikanta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\POM\\POM.csproj": {
+                "projectPath": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\POM\\POM.csproj"
+              },
+              "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "BoDi": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Selenium.Chrome.WebDriver": {
+              "target": "Package",
+              "version": "[85.0.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.26.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.26.1, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.40, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.9.57, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\Utilities\\Utilities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\Utilities\\Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "C:\\Users\\kuncham_manikanta\\Documents\\QALatest\\SauceDemo\\Utilities\\Utilities.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}
